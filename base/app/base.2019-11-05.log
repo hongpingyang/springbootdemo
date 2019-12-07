@@ -1,0 +1,816 @@
+2019-11-05 17:03:19.832 [main] INFO  com.hong.py.SpringbootdemoApplicationTests - Starting SpringbootdemoApplicationTests on WINDOWS-TKC5QJ3 with PID 21388 (started by hongpy21691 in E:\ideaWorkSpace\springbootdemo)
+2019-11-05 17:03:19.834 [main] DEBUG com.hong.py.SpringbootdemoApplicationTests - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-05 17:03:19.835 [main] INFO  com.hong.py.SpringbootdemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-11-05 17:03:21.403 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-11-05 17:03:21.410 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\PmsBrandMapper.class]
+2019-11-05 17:03:21.410 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsAdminMapper.class]
+2019-11-05 17:03:21.411 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsAdminPermissionRelationMapper.class]
+2019-11-05 17:03:21.411 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsAdminRoleRelationMapper.class]
+2019-11-05 17:03:21.411 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsPermissionMapper.class]
+2019-11-05 17:03:21.411 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsRoleMapper.class]
+2019-11-05 17:03:21.412 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsRolePermissionRelationMapper.class]
+2019-11-05 17:03:21.414 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\dao\UmsAdminRoleRelationDao.class]
+2019-11-05 17:03:21.416 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'pmsBrandMapper' and 'com.hong.py.mapper.PmsBrandMapper' mapperInterface
+2019-11-05 17:03:21.416 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'pmsBrandMapper'.
+2019-11-05 17:03:21.417 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'umsAdminMapper' and 'com.hong.py.mapper.UmsAdminMapper' mapperInterface
+2019-11-05 17:03:21.417 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'umsAdminMapper'.
+2019-11-05 17:03:21.417 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'umsAdminPermissionRelationMapper' and 'com.hong.py.mapper.UmsAdminPermissionRelationMapper' mapperInterface
+2019-11-05 17:03:21.417 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'umsAdminPermissionRelationMapper'.
+2019-11-05 17:03:21.418 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'umsAdminRoleRelationMapper' and 'com.hong.py.mapper.UmsAdminRoleRelationMapper' mapperInterface
+2019-11-05 17:03:21.418 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'umsAdminRoleRelationMapper'.
+2019-11-05 17:03:21.418 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'umsPermissionMapper' and 'com.hong.py.mapper.UmsPermissionMapper' mapperInterface
+2019-11-05 17:03:21.418 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'umsPermissionMapper'.
+2019-11-05 17:03:21.418 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'umsRoleMapper' and 'com.hong.py.mapper.UmsRoleMapper' mapperInterface
+2019-11-05 17:03:21.418 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'umsRoleMapper'.
+2019-11-05 17:03:21.418 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'umsRolePermissionRelationMapper' and 'com.hong.py.mapper.UmsRolePermissionRelationMapper' mapperInterface
+2019-11-05 17:03:21.419 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'umsRolePermissionRelationMapper'.
+2019-11-05 17:03:21.419 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'umsAdminRoleRelationDao' and 'com.hong.py.dao.UmsAdminRoleRelationDao' mapperInterface
+2019-11-05 17:03:21.419 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'umsAdminRoleRelationDao'.
+2019-11-05 17:03:23.270 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-05 17:03:24.382 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-05 17:03:25.343 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\PmsBrandMapper.xml]'
+2019-11-05 17:03:25.440 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsAdminMapper.xml]'
+2019-11-05 17:03:25.485 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsAdminPermissionRelationMapper.xml]'
+2019-11-05 17:03:25.501 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsAdminRoleRelationDao.xml]'
+2019-11-05 17:03:25.544 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsAdminRoleRelationMapper.xml]'
+2019-11-05 17:03:25.612 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsPermissionMapper.xml]'
+2019-11-05 17:03:25.658 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsRoleMapper.xml]'
+2019-11-05 17:03:25.685 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\ideaWorkSpace\springbootdemo\target\classes\com\hong\py\mapper\UmsRolePermissionRelationMapper.xml]'
+2019-11-05 17:03:31.106 [main] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2019-11-05 17:03:31.116 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-11-05 17:03:34.528 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-05 17:03:34.591 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-11-05 17:03:34.667 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-05 17:03:34.715 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult<Lcom/hong/py/pojo/PmsBrand;>;
+2019-11-05 17:03:34.717 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |brand|
+2019-11-05 17:03:34.720 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |brand|
+2019-11-05 17:03:34.745 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |brand|
+2019-11-05 17:03:34.841 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property code
+2019-11-05 17:03:34.856 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:34.859 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+2019-11-05 17:03:34.860 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property code to model
+2019-11-05 17:03:34.862 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:34.863 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:34.864 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:34.869 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:34.885 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property message
+2019-11-05 17:03:34.887 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:34.887 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'message' renamed to 'message'
+2019-11-05 17:03:34.887 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property message to model
+2019-11-05 17:03:34.888 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:34.889 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:34.889 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:34.890 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:34.891 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property data
+2019-11-05 17:03:34.893 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:34.894 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'data' renamed to 'data'
+2019-11-05 17:03:34.894 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property data to model
+2019-11-05 17:03:34.895 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:34.895 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:34.895 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:34.897 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:34.924 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 3 properties. Properties found code, data, message
+2019-11-05 17:03:34.927 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult?PmsBrand?, name: CommonResult?PmsBrand?, schema: {} models
+2019-11-05 17:03:34.927 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key CommonResult?PmsBrand?
+2019-11-05 17:03:34.930 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:34.932 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:34.939 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property id
+2019-11-05 17:03:34.940 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:34.941 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'id' renamed to 'id'
+2019-11-05 17:03:34.941 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property id to model
+2019-11-05 17:03:34.941 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:34.941 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:34.945 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:34.946 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:34.949 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property name
+2019-11-05 17:03:34.950 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:34.952 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'name' renamed to 'name'
+2019-11-05 17:03:34.952 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property name to model
+2019-11-05 17:03:34.954 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:34.954 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:34.954 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:34.954 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:34.955 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property firstLetter
+2019-11-05 17:03:34.957 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFirstLetter
+2019-11-05 17:03:34.959 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'firstLetter' renamed to 'firstLetter'
+2019-11-05 17:03:34.960 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property firstLetter to model
+2019-11-05 17:03:34.961 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFirstLetter
+2019-11-05 17:03:34.962 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFirstLetter
+2019-11-05 17:03:34.962 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFirstLetter
+2019-11-05 17:03:34.963 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFirstLetter
+2019-11-05 17:03:35.021 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property sort
+2019-11-05 17:03:35.022 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.022 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'sort' renamed to 'sort'
+2019-11-05 17:03:35.022 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property sort to model
+2019-11-05 17:03:35.022 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.022 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.026 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.040 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.040 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property factoryStatus
+2019-11-05 17:03:35.040 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFactoryStatus
+2019-11-05 17:03:35.040 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'factoryStatus' renamed to 'factoryStatus'
+2019-11-05 17:03:35.041 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property factoryStatus to model
+2019-11-05 17:03:35.041 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFactoryStatus
+2019-11-05 17:03:35.041 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFactoryStatus
+2019-11-05 17:03:35.041 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFactoryStatus
+2019-11-05 17:03:35.041 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getFactoryStatus
+2019-11-05 17:03:35.041 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property showStatus
+2019-11-05 17:03:35.042 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getShowStatus
+2019-11-05 17:03:35.043 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'showStatus' renamed to 'showStatus'
+2019-11-05 17:03:35.043 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property showStatus to model
+2019-11-05 17:03:35.043 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getShowStatus
+2019-11-05 17:03:35.043 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getShowStatus
+2019-11-05 17:03:35.043 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getShowStatus
+2019-11-05 17:03:35.043 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getShowStatus
+2019-11-05 17:03:35.044 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property productCount
+2019-11-05 17:03:35.044 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCount
+2019-11-05 17:03:35.044 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'productCount' renamed to 'productCount'
+2019-11-05 17:03:35.044 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property productCount to model
+2019-11-05 17:03:35.044 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCount
+2019-11-05 17:03:35.044 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCount
+2019-11-05 17:03:35.045 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCount
+2019-11-05 17:03:35.045 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCount
+2019-11-05 17:03:35.045 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property productCommentCount
+2019-11-05 17:03:35.045 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCommentCount
+2019-11-05 17:03:35.045 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'productCommentCount' renamed to 'productCommentCount'
+2019-11-05 17:03:35.077 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property productCommentCount to model
+2019-11-05 17:03:35.079 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCommentCount
+2019-11-05 17:03:35.080 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCommentCount
+2019-11-05 17:03:35.082 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCommentCount
+2019-11-05 17:03:35.083 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getProductCommentCount
+2019-11-05 17:03:35.084 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property logo
+2019-11-05 17:03:35.085 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLogo
+2019-11-05 17:03:35.085 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'logo' renamed to 'logo'
+2019-11-05 17:03:35.086 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property logo to model
+2019-11-05 17:03:35.086 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLogo
+2019-11-05 17:03:35.086 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLogo
+2019-11-05 17:03:35.086 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLogo
+2019-11-05 17:03:35.086 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLogo
+2019-11-05 17:03:35.090 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property bigPic
+2019-11-05 17:03:35.091 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBigPic
+2019-11-05 17:03:35.098 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'bigPic' renamed to 'bigPic'
+2019-11-05 17:03:35.098 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property bigPic to model
+2019-11-05 17:03:35.098 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBigPic
+2019-11-05 17:03:35.098 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBigPic
+2019-11-05 17:03:35.098 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBigPic
+2019-11-05 17:03:35.099 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBigPic
+2019-11-05 17:03:35.099 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property brandStory
+2019-11-05 17:03:35.100 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBrandStory
+2019-11-05 17:03:35.102 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'brandStory' renamed to 'brandStory'
+2019-11-05 17:03:35.106 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property brandStory to model
+2019-11-05 17:03:35.107 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBrandStory
+2019-11-05 17:03:35.107 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBrandStory
+2019-11-05 17:03:35.107 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBrandStory
+2019-11-05 17:03:35.108 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getBrandStory
+2019-11-05 17:03:35.116 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type Lcom/hong/py/pojo/PmsBrand; for parameter data
+2019-11-05 17:03:35.116 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.121 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 11 properties. Properties found bigPic, brandStory, factoryStatus, firstLetter, id, logo, name, productCommentCount, productCount, showStatus, sort
+2019-11-05 17:03:35.122 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key PmsBrand
+2019-11-05 17:03:35.169 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult?PmsBrand?
+2019-11-05 17:03:35.179 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 1 for method brand
+2019-11-05 17:03:35.341 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult?PmsBrand?
+2019-11-05 17:03:35.367 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method brand
+2019-11-05 17:03:35.418 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult;
+2019-11-05 17:03:35.418 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |createBrand|
+2019-11-05 17:03:35.420 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.420 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |createBrand|
+2019-11-05 17:03:35.422 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |createBrand|
+2019-11-05 17:03:35.424 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property code
+2019-11-05 17:03:35.426 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.427 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+2019-11-05 17:03:35.430 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property code to model
+2019-11-05 17:03:35.431 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.432 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.433 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.433 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.433 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property message
+2019-11-05 17:03:35.435 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.436 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'message' renamed to 'message'
+2019-11-05 17:03:35.436 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property message to model
+2019-11-05 17:03:35.437 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.437 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.445 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.454 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.457 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property data
+2019-11-05 17:03:35.464 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.465 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'data' renamed to 'data'
+2019-11-05 17:03:35.465 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property data to model
+2019-11-05 17:03:35.465 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.465 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.465 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.465 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.466 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 3 properties. Properties found code, data, message
+2019-11-05 17:03:35.467 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult, name: CommonResult, schema: {} models
+2019-11-05 17:03:35.468 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key CommonResult
+2019-11-05 17:03:35.476 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property id
+2019-11-05 17:03:35.478 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:35.481 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'id' renamed to 'id'
+2019-11-05 17:03:35.483 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property id to model
+2019-11-05 17:03:35.486 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:35.487 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:35.487 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:35.488 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:35.489 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property name
+2019-11-05 17:03:35.490 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setName
+2019-11-05 17:03:35.491 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'name' renamed to 'name'
+2019-11-05 17:03:35.491 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property name to model
+2019-11-05 17:03:35.492 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setName
+2019-11-05 17:03:35.493 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setName
+2019-11-05 17:03:35.493 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setName
+2019-11-05 17:03:35.493 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setName
+2019-11-05 17:03:35.494 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property firstLetter
+2019-11-05 17:03:35.494 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFirstLetter
+2019-11-05 17:03:35.494 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'firstLetter' renamed to 'firstLetter'
+2019-11-05 17:03:35.494 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property firstLetter to model
+2019-11-05 17:03:35.494 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFirstLetter
+2019-11-05 17:03:35.495 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFirstLetter
+2019-11-05 17:03:35.495 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFirstLetter
+2019-11-05 17:03:35.498 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFirstLetter
+2019-11-05 17:03:35.502 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property sort
+2019-11-05 17:03:35.503 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setSort
+2019-11-05 17:03:35.504 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'sort' renamed to 'sort'
+2019-11-05 17:03:35.509 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property sort to model
+2019-11-05 17:03:35.511 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setSort
+2019-11-05 17:03:35.512 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setSort
+2019-11-05 17:03:35.513 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setSort
+2019-11-05 17:03:35.514 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setSort
+2019-11-05 17:03:35.515 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property factoryStatus
+2019-11-05 17:03:35.517 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFactoryStatus
+2019-11-05 17:03:35.518 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'factoryStatus' renamed to 'factoryStatus'
+2019-11-05 17:03:35.518 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property factoryStatus to model
+2019-11-05 17:03:35.518 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFactoryStatus
+2019-11-05 17:03:35.518 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFactoryStatus
+2019-11-05 17:03:35.519 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFactoryStatus
+2019-11-05 17:03:35.520 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setFactoryStatus
+2019-11-05 17:03:35.522 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property showStatus
+2019-11-05 17:03:35.523 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setShowStatus
+2019-11-05 17:03:35.523 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'showStatus' renamed to 'showStatus'
+2019-11-05 17:03:35.523 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property showStatus to model
+2019-11-05 17:03:35.525 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setShowStatus
+2019-11-05 17:03:35.527 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setShowStatus
+2019-11-05 17:03:35.528 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setShowStatus
+2019-11-05 17:03:35.528 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setShowStatus
+2019-11-05 17:03:35.530 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property productCount
+2019-11-05 17:03:35.532 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCount
+2019-11-05 17:03:35.533 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'productCount' renamed to 'productCount'
+2019-11-05 17:03:35.534 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property productCount to model
+2019-11-05 17:03:35.534 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCount
+2019-11-05 17:03:35.539 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCount
+2019-11-05 17:03:35.539 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCount
+2019-11-05 17:03:35.540 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCount
+2019-11-05 17:03:35.541 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property productCommentCount
+2019-11-05 17:03:35.544 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCommentCount
+2019-11-05 17:03:35.545 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'productCommentCount' renamed to 'productCommentCount'
+2019-11-05 17:03:35.545 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property productCommentCount to model
+2019-11-05 17:03:35.546 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCommentCount
+2019-11-05 17:03:35.546 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCommentCount
+2019-11-05 17:03:35.547 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCommentCount
+2019-11-05 17:03:35.548 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setProductCommentCount
+2019-11-05 17:03:35.549 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property logo
+2019-11-05 17:03:35.550 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLogo
+2019-11-05 17:03:35.551 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'logo' renamed to 'logo'
+2019-11-05 17:03:35.552 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property logo to model
+2019-11-05 17:03:35.552 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLogo
+2019-11-05 17:03:35.552 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLogo
+2019-11-05 17:03:35.552 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLogo
+2019-11-05 17:03:35.554 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLogo
+2019-11-05 17:03:35.555 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property bigPic
+2019-11-05 17:03:35.555 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBigPic
+2019-11-05 17:03:35.555 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'bigPic' renamed to 'bigPic'
+2019-11-05 17:03:35.555 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property bigPic to model
+2019-11-05 17:03:35.555 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBigPic
+2019-11-05 17:03:35.555 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBigPic
+2019-11-05 17:03:35.556 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBigPic
+2019-11-05 17:03:35.556 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBigPic
+2019-11-05 17:03:35.556 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property brandStory
+2019-11-05 17:03:35.557 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBrandStory
+2019-11-05 17:03:35.557 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'brandStory' renamed to 'brandStory'
+2019-11-05 17:03:35.557 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property brandStory to model
+2019-11-05 17:03:35.557 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBrandStory
+2019-11-05 17:03:35.557 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBrandStory
+2019-11-05 17:03:35.558 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBrandStory
+2019-11-05 17:03:35.558 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setBrandStory
+2019-11-05 17:03:35.560 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 11 properties. Properties found bigPic, brandStory, factoryStatus, firstLetter, id, logo, name, productCommentCount, productCount, showStatus, sort
+2019-11-05 17:03:35.561 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: PmsBrand, name: PmsBrand, schema: {} models
+2019-11-05 17:03:35.565 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult
+2019-11-05 17:03:35.575 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 1 for method createBrand
+2019-11-05 17:03:35.582 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult
+2019-11-05 17:03:35.586 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method createBrand
+2019-11-05 17:03:35.589 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult;
+2019-11-05 17:03:35.589 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |deleteBrand|
+2019-11-05 17:03:35.599 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |deleteBrand|
+2019-11-05 17:03:35.600 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |deleteBrand|
+2019-11-05 17:03:35.601 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult, name: CommonResult, schema: {} models
+2019-11-05 17:03:35.603 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult
+2019-11-05 17:03:35.604 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 1 for method deleteBrand
+2019-11-05 17:03:35.606 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult
+2019-11-05 17:03:35.609 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method deleteBrand
+2019-11-05 17:03:35.610 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult<Ljava/util/List;>;
+2019-11-05 17:03:35.610 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |getBrandList|
+2019-11-05 17:03:35.610 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |getBrandList|
+2019-11-05 17:03:35.611 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |getBrandList|
+2019-11-05 17:03:35.612 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property code
+2019-11-05 17:03:35.613 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.613 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+2019-11-05 17:03:35.613 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property code to model
+2019-11-05 17:03:35.613 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.613 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.613 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.613 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.613 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property message
+2019-11-05 17:03:35.614 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.614 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'message' renamed to 'message'
+2019-11-05 17:03:35.614 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property message to model
+2019-11-05 17:03:35.614 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.614 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.614 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.614 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.614 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property data
+2019-11-05 17:03:35.615 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.615 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'data' renamed to 'data'
+2019-11-05 17:03:35.615 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property data to model
+2019-11-05 17:03:35.615 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.615 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.615 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.615 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.616 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 3 properties. Properties found code, data, message
+2019-11-05 17:03:35.618 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult?List?PmsBrand??, name: CommonResult?List?PmsBrand??, schema: {} models
+2019-11-05 17:03:35.618 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key CommonResult?List?PmsBrand??
+2019-11-05 17:03:35.618 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Ljava/util/List<Lcom/hong/py/pojo/PmsBrand;>;
+2019-11-05 17:03:35.619 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Ljava/util/List<Lcom/hong/py/pojo/PmsBrand;>;
+2019-11-05 17:03:35.619 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.619 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.626 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type Ljava/util/List<Lcom/hong/py/pojo/PmsBrand;>; for parameter data
+2019-11-05 17:03:35.626 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding collectionElement type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.626 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for collectionElement type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.627 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/util/List<Lcom/hong/py/pojo/PmsBrand;>; as its either a container type, map, enum or base type, or its already been handled
+2019-11-05 17:03:35.627 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 11 properties. Properties found bigPic, brandStory, factoryStatus, firstLetter, id, logo, name, productCommentCount, productCount, showStatus, sort
+2019-11-05 17:03:35.631 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult?List?PmsBrand??
+2019-11-05 17:03:35.633 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 1 for method getBrandList
+2019-11-05 17:03:35.637 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult?List?PmsBrand??
+2019-11-05 17:03:35.640 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method getBrandList
+2019-11-05 17:03:35.643 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult<Lcom/hong/py/common/CommonPage;>;
+2019-11-05 17:03:35.643 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |listBrand|
+2019-11-05 17:03:35.649 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |listBrand|
+2019-11-05 17:03:35.652 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |listBrand|
+2019-11-05 17:03:35.656 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property code
+2019-11-05 17:03:35.657 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.658 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+2019-11-05 17:03:35.658 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property code to model
+2019-11-05 17:03:35.659 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.665 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.666 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.676 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.676 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property message
+2019-11-05 17:03:35.676 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.676 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'message' renamed to 'message'
+2019-11-05 17:03:35.677 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property message to model
+2019-11-05 17:03:35.677 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.677 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.677 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.678 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.678 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property data
+2019-11-05 17:03:35.678 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.678 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'data' renamed to 'data'
+2019-11-05 17:03:35.678 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property data to model
+2019-11-05 17:03:35.679 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.679 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.679 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.679 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.683 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 3 properties. Properties found code, data, message
+2019-11-05 17:03:35.685 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult?CommonPage?PmsBrand??, name: CommonResult?CommonPage?PmsBrand??, schema: {} models
+2019-11-05 17:03:35.685 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key CommonResult?CommonPage?PmsBrand??
+2019-11-05 17:03:35.686 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Lcom/hong/py/common/CommonPage<Lcom/hong/py/pojo/PmsBrand;>;
+2019-11-05 17:03:35.686 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Lcom/hong/py/common/CommonPage<Lcom/hong/py/pojo/PmsBrand;>;
+2019-11-05 17:03:35.686 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.689 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.690 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property pageNum
+2019-11-05 17:03:35.698 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageNum
+2019-11-05 17:03:35.698 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'pageNum' renamed to 'pageNum'
+2019-11-05 17:03:35.699 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property pageNum to model
+2019-11-05 17:03:35.699 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageNum
+2019-11-05 17:03:35.699 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageNum
+2019-11-05 17:03:35.699 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageNum
+2019-11-05 17:03:35.699 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageNum
+2019-11-05 17:03:35.699 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property pageSize
+2019-11-05 17:03:35.700 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageSize
+2019-11-05 17:03:35.700 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'pageSize' renamed to 'pageSize'
+2019-11-05 17:03:35.700 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property pageSize to model
+2019-11-05 17:03:35.700 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageSize
+2019-11-05 17:03:35.700 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageSize
+2019-11-05 17:03:35.700 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageSize
+2019-11-05 17:03:35.700 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPageSize
+2019-11-05 17:03:35.700 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property totalPage
+2019-11-05 17:03:35.701 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotalPage
+2019-11-05 17:03:35.701 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'totalPage' renamed to 'totalPage'
+2019-11-05 17:03:35.701 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property totalPage to model
+2019-11-05 17:03:35.701 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotalPage
+2019-11-05 17:03:35.701 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotalPage
+2019-11-05 17:03:35.725 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotalPage
+2019-11-05 17:03:35.725 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotalPage
+2019-11-05 17:03:35.726 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property total
+2019-11-05 17:03:35.726 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotal
+2019-11-05 17:03:35.735 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'total' renamed to 'total'
+2019-11-05 17:03:35.736 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property total to model
+2019-11-05 17:03:35.736 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotal
+2019-11-05 17:03:35.736 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotal
+2019-11-05 17:03:35.736 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotal
+2019-11-05 17:03:35.744 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getTotal
+2019-11-05 17:03:35.749 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property list
+2019-11-05 17:03:35.750 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getList
+2019-11-05 17:03:35.750 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'list' renamed to 'list'
+2019-11-05 17:03:35.750 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property list to model
+2019-11-05 17:03:35.750 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getList
+2019-11-05 17:03:35.750 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getList
+2019-11-05 17:03:35.750 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getList
+2019-11-05 17:03:35.750 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getList
+2019-11-05 17:03:35.751 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type Ljava/util/List<Lcom/hong/py/pojo/PmsBrand;>; for parameter list
+2019-11-05 17:03:35.751 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding collectionElement type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.751 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for collectionElement type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.751 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type Lcom/hong/py/common/CommonPage<Lcom/hong/py/pojo/PmsBrand;>; for parameter data
+2019-11-05 17:03:35.752 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lcom/hong/py/common/CommonPage<Lcom/hong/py/pojo/PmsBrand;>;
+2019-11-05 17:03:35.755 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.756 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.760 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type Ljava/util/List<Lcom/hong/py/pojo/PmsBrand;>; for parameter list
+2019-11-05 17:03:35.760 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding collectionElement type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.760 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for collectionElement type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.762 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 5 properties. Properties found list, pageNum, pageSize, total, totalPage
+2019-11-05 17:03:35.762 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 11 properties. Properties found bigPic, brandStory, factoryStatus, firstLetter, id, logo, name, productCommentCount, productCount, showStatus, sort
+2019-11-05 17:03:35.763 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/util/List<Lcom/hong/py/pojo/PmsBrand;>; as its either a container type, map, enum or base type, or its already been handled
+2019-11-05 17:03:35.763 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key CommonPage?PmsBrand?
+2019-11-05 17:03:35.767 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult?CommonPage?PmsBrand??
+2019-11-05 17:03:35.771 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 1 for method listBrand
+2019-11-05 17:03:35.774 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult?CommonPage?PmsBrand??
+2019-11-05 17:03:35.777 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method listBrand
+2019-11-05 17:03:35.778 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult;
+2019-11-05 17:03:35.778 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |updateBrand|
+2019-11-05 17:03:35.779 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lcom/hong/py/pojo/PmsBrand;
+2019-11-05 17:03:35.779 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |updateBrand|
+2019-11-05 17:03:35.779 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |updateBrand|
+2019-11-05 17:03:35.780 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult, name: CommonResult, schema: {} models
+2019-11-05 17:03:35.780 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: PmsBrand, name: PmsBrand, schema: {} models
+2019-11-05 17:03:35.790 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult
+2019-11-05 17:03:35.798 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 1 for method updateBrand
+2019-11-05 17:03:35.800 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult
+2019-11-05 17:03:35.809 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method updateBrand
+2019-11-05 17:03:35.851 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult<Ljava/util/List;>;
+2019-11-05 17:03:35.852 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |getPermissionList|
+2019-11-05 17:03:35.853 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |getPermissionList|
+2019-11-05 17:03:35.853 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |getPermissionList|
+2019-11-05 17:03:35.855 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property code
+2019-11-05 17:03:35.866 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.866 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+2019-11-05 17:03:35.866 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property code to model
+2019-11-05 17:03:35.867 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.867 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.867 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.867 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.867 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property message
+2019-11-05 17:03:35.868 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.868 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'message' renamed to 'message'
+2019-11-05 17:03:35.869 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property message to model
+2019-11-05 17:03:35.869 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.869 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.869 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.869 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.869 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property data
+2019-11-05 17:03:35.870 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.870 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'data' renamed to 'data'
+2019-11-05 17:03:35.870 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property data to model
+2019-11-05 17:03:35.870 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.870 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.870 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.870 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.871 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 3 properties. Properties found code, data, message
+2019-11-05 17:03:35.871 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult?List?UmsPermission??, name: CommonResult?List?UmsPermission??, schema: {} models
+2019-11-05 17:03:35.872 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key CommonResult?List?UmsPermission??
+2019-11-05 17:03:35.872 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Ljava/util/List<Lcom/hong/py/pojo/UmsPermission;>;
+2019-11-05 17:03:35.872 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Ljava/util/List<Lcom/hong/py/pojo/UmsPermission;>;
+2019-11-05 17:03:35.872 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Lcom/hong/py/pojo/UmsPermission;
+2019-11-05 17:03:35.872 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Lcom/hong/py/pojo/UmsPermission;
+2019-11-05 17:03:35.883 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property id
+2019-11-05 17:03:35.883 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:35.883 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'id' renamed to 'id'
+2019-11-05 17:03:35.883 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property id to model
+2019-11-05 17:03:35.883 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:35.883 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property pid
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPid
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'pid' renamed to 'pid'
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property pid to model
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPid
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPid
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPid
+2019-11-05 17:03:35.884 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPid
+2019-11-05 17:03:35.885 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property name
+2019-11-05 17:03:35.885 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:35.885 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'name' renamed to 'name'
+2019-11-05 17:03:35.885 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property name to model
+2019-11-05 17:03:35.885 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:35.885 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:35.885 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:35.885 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getName
+2019-11-05 17:03:35.886 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property value
+2019-11-05 17:03:35.886 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getValue
+2019-11-05 17:03:35.886 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'value' renamed to 'value'
+2019-11-05 17:03:35.886 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property value to model
+2019-11-05 17:03:35.886 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getValue
+2019-11-05 17:03:35.886 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getValue
+2019-11-05 17:03:35.886 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getValue
+2019-11-05 17:03:35.886 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getValue
+2019-11-05 17:03:35.887 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property icon
+2019-11-05 17:03:35.887 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:35.887 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'icon' renamed to 'icon'
+2019-11-05 17:03:35.887 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property icon to model
+2019-11-05 17:03:35.888 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:35.888 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:35.888 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:35.888 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:35.888 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property type
+2019-11-05 17:03:35.889 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getType
+2019-11-05 17:03:35.889 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'type' renamed to 'type'
+2019-11-05 17:03:35.889 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property type to model
+2019-11-05 17:03:35.889 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getType
+2019-11-05 17:03:35.889 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getType
+2019-11-05 17:03:35.889 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getType
+2019-11-05 17:03:35.889 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getType
+2019-11-05 17:03:35.889 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property uri
+2019-11-05 17:03:35.890 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUri
+2019-11-05 17:03:35.890 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'uri' renamed to 'uri'
+2019-11-05 17:03:35.890 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property uri to model
+2019-11-05 17:03:35.890 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUri
+2019-11-05 17:03:35.890 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUri
+2019-11-05 17:03:35.890 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUri
+2019-11-05 17:03:35.890 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUri
+2019-11-05 17:03:35.890 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property status
+2019-11-05 17:03:35.891 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:35.891 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2019-11-05 17:03:35.891 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property status to model
+2019-11-05 17:03:35.891 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:35.891 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:35.891 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:35.891 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:35.892 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property createTime
+2019-11-05 17:03:35.894 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:35.894 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'createTime' renamed to 'createTime'
+2019-11-05 17:03:35.894 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property createTime to model
+2019-11-05 17:03:35.894 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:35.894 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:35.894 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:35.895 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:35.895 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property sort
+2019-11-05 17:03:35.895 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.895 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'sort' renamed to 'sort'
+2019-11-05 17:03:35.895 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property sort to model
+2019-11-05 17:03:35.895 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.895 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.895 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.896 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getSort
+2019-11-05 17:03:35.897 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type Ljava/util/List<Lcom/hong/py/pojo/UmsPermission;>; for parameter data
+2019-11-05 17:03:35.897 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding collectionElement type Lcom/hong/py/pojo/UmsPermission;
+2019-11-05 17:03:35.897 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for collectionElement type Lcom/hong/py/pojo/UmsPermission;
+2019-11-05 17:03:35.897 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/util/List<Lcom/hong/py/pojo/UmsPermission;>; as its either a container type, map, enum or base type, or its already been handled
+2019-11-05 17:03:35.898 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 10 properties. Properties found createTime, icon, id, name, pid, sort, status, type, uri, value
+2019-11-05 17:03:35.898 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key UmsPermission
+2019-11-05 17:03:35.899 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult?List?UmsPermission??
+2019-11-05 17:03:35.902 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method getPermissionList
+2019-11-05 17:03:35.904 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult?List?UmsPermission??
+2019-11-05 17:03:35.906 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method getPermissionList
+2019-11-05 17:03:35.907 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult;
+2019-11-05 17:03:35.907 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |login|
+2019-11-05 17:03:35.908 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lcom/hong/py/dto/UmsAdminLoginParam;
+2019-11-05 17:03:35.908 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |login|
+2019-11-05 17:03:35.910 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |login|
+2019-11-05 17:03:35.914 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult, name: CommonResult, schema: {} models
+2019-11-05 17:03:35.918 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key CommonResult
+2019-11-05 17:03:35.950 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property username
+2019-11-05 17:03:35.951 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:35.951 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'username' renamed to 'username'
+2019-11-05 17:03:35.951 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property username to model
+2019-11-05 17:03:35.951 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:35.952 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:35.952 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:35.952 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:35.952 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property password
+2019-11-05 17:03:35.953 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:35.953 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+2019-11-05 17:03:35.953 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property password to model
+2019-11-05 17:03:35.953 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:35.953 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:35.953 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:35.953 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:35.955 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 2 properties. Properties found password, username
+2019-11-05 17:03:35.956 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: UmsAdminLoginParam, name: UmsAdminLoginParam, schema: {} models
+2019-11-05 17:03:35.956 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key UmsAdminLoginParam
+2019-11-05 17:03:35.960 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult
+2019-11-05 17:03:35.962 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method login
+2019-11-05 17:03:35.966 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult
+2019-11-05 17:03:35.968 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method login
+2019-11-05 17:03:35.975 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lcom/hong/py/common/CommonResult<Lcom/hong/py/pojo/UmsAdmin;>;
+2019-11-05 17:03:35.975 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |register|
+2019-11-05 17:03:35.976 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lcom/hong/py/pojo/UmsAdmin;
+2019-11-05 17:03:35.976 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |register|
+2019-11-05 17:03:35.977 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |register|
+2019-11-05 17:03:35.978 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property code
+2019-11-05 17:03:35.979 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.979 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+2019-11-05 17:03:35.979 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property code to model
+2019-11-05 17:03:35.979 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.979 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.979 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.979 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCode
+2019-11-05 17:03:35.979 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property message
+2019-11-05 17:03:35.980 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.981 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'message' renamed to 'message'
+2019-11-05 17:03:35.981 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property message to model
+2019-11-05 17:03:35.981 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.982 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.982 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.982 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getMessage
+2019-11-05 17:03:35.983 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property data
+2019-11-05 17:03:35.986 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.987 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'data' renamed to 'data'
+2019-11-05 17:03:35.987 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property data to model
+2019-11-05 17:03:35.987 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.987 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.987 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.987 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getData
+2019-11-05 17:03:35.990 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 3 properties. Properties found code, data, message
+2019-11-05 17:03:35.991 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: CommonResult?UmsAdmin?, name: CommonResult?UmsAdmin?, schema: {} models
+2019-11-05 17:03:35.992 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key CommonResult?UmsAdmin?
+2019-11-05 17:03:35.992 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type for parameter Lcom/hong/py/pojo/UmsAdmin;
+2019-11-05 17:03:35.993 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for parameter Lcom/hong/py/pojo/UmsAdmin;
+2019-11-05 17:03:35.998 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property id
+2019-11-05 17:03:36.001 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:36.003 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'id' renamed to 'id'
+2019-11-05 17:03:36.004 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property id to model
+2019-11-05 17:03:36.005 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:36.006 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:36.006 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:36.006 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getId
+2019-11-05 17:03:36.006 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property username
+2019-11-05 17:03:36.007 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUsername
+2019-11-05 17:03:36.007 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'username' renamed to 'username'
+2019-11-05 17:03:36.007 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property username to model
+2019-11-05 17:03:36.007 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUsername
+2019-11-05 17:03:36.007 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUsername
+2019-11-05 17:03:36.007 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUsername
+2019-11-05 17:03:36.008 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getUsername
+2019-11-05 17:03:36.008 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property password
+2019-11-05 17:03:36.008 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPassword
+2019-11-05 17:03:36.008 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+2019-11-05 17:03:36.008 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property password to model
+2019-11-05 17:03:36.008 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPassword
+2019-11-05 17:03:36.009 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPassword
+2019-11-05 17:03:36.009 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPassword
+2019-11-05 17:03:36.009 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getPassword
+2019-11-05 17:03:36.009 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property icon
+2019-11-05 17:03:36.009 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:36.009 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'icon' renamed to 'icon'
+2019-11-05 17:03:36.010 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property icon to model
+2019-11-05 17:03:36.010 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:36.010 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:36.010 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:36.010 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getIcon
+2019-11-05 17:03:36.010 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property email
+2019-11-05 17:03:36.011 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getEmail
+2019-11-05 17:03:36.011 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'email' renamed to 'email'
+2019-11-05 17:03:36.011 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property email to model
+2019-11-05 17:03:36.011 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getEmail
+2019-11-05 17:03:36.011 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getEmail
+2019-11-05 17:03:36.012 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getEmail
+2019-11-05 17:03:36.012 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getEmail
+2019-11-05 17:03:36.012 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property nickName
+2019-11-05 17:03:36.013 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNickName
+2019-11-05 17:03:36.014 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'nickName' renamed to 'nickName'
+2019-11-05 17:03:36.014 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property nickName to model
+2019-11-05 17:03:36.014 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNickName
+2019-11-05 17:03:36.014 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNickName
+2019-11-05 17:03:36.014 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNickName
+2019-11-05 17:03:36.014 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNickName
+2019-11-05 17:03:36.015 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property note
+2019-11-05 17:03:36.017 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNote
+2019-11-05 17:03:36.020 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'note' renamed to 'note'
+2019-11-05 17:03:36.020 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property note to model
+2019-11-05 17:03:36.020 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNote
+2019-11-05 17:03:36.021 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNote
+2019-11-05 17:03:36.021 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNote
+2019-11-05 17:03:36.021 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getNote
+2019-11-05 17:03:36.021 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property createTime
+2019-11-05 17:03:36.022 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:36.022 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'createTime' renamed to 'createTime'
+2019-11-05 17:03:36.022 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property createTime to model
+2019-11-05 17:03:36.022 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:36.022 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:36.022 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:36.022 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getCreateTime
+2019-11-05 17:03:36.023 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property loginTime
+2019-11-05 17:03:36.024 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLoginTime
+2019-11-05 17:03:36.024 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'loginTime' renamed to 'loginTime'
+2019-11-05 17:03:36.025 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property loginTime to model
+2019-11-05 17:03:36.025 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLoginTime
+2019-11-05 17:03:36.025 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLoginTime
+2019-11-05 17:03:36.025 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLoginTime
+2019-11-05 17:03:36.026 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getLoginTime
+2019-11-05 17:03:36.028 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property status
+2019-11-05 17:03:36.028 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:36.029 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2019-11-05 17:03:36.029 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property status to model
+2019-11-05 17:03:36.029 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:36.029 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:36.030 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:36.030 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2019-11-05 17:03:36.032 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Adding type Lcom/hong/py/pojo/UmsAdmin; for parameter data
+2019-11-05 17:03:36.032 [main] DEBUG springfox.documentation.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lcom/hong/py/pojo/UmsAdmin;
+2019-11-05 17:03:36.033 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 10 properties. Properties found createTime, email, icon, id, loginTime, nickName, note, password, status, username
+2019-11-05 17:03:36.033 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key UmsAdmin
+2019-11-05 17:03:36.035 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property id
+2019-11-05 17:03:36.037 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:36.037 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'id' renamed to 'id'
+2019-11-05 17:03:36.037 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property id to model
+2019-11-05 17:03:36.037 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:36.037 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:36.037 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:36.037 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setId
+2019-11-05 17:03:36.038 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property username
+2019-11-05 17:03:36.038 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:36.038 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'username' renamed to 'username'
+2019-11-05 17:03:36.038 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property username to model
+2019-11-05 17:03:36.038 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:36.038 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property password
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property password to model
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:36.039 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:36.040 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+2019-11-05 17:03:36.040 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property icon
+2019-11-05 17:03:36.040 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setIcon
+2019-11-05 17:03:36.040 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'icon' renamed to 'icon'
+2019-11-05 17:03:36.040 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property icon to model
+2019-11-05 17:03:36.040 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setIcon
+2019-11-05 17:03:36.040 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setIcon
+2019-11-05 17:03:36.040 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setIcon
+2019-11-05 17:03:36.041 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setIcon
+2019-11-05 17:03:36.044 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property email
+2019-11-05 17:03:36.044 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+2019-11-05 17:03:36.046 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'email' renamed to 'email'
+2019-11-05 17:03:36.052 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property email to model
+2019-11-05 17:03:36.053 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+2019-11-05 17:03:36.053 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+2019-11-05 17:03:36.053 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+2019-11-05 17:03:36.053 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+2019-11-05 17:03:36.054 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property nickName
+2019-11-05 17:03:36.054 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNickName
+2019-11-05 17:03:36.055 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'nickName' renamed to 'nickName'
+2019-11-05 17:03:36.055 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property nickName to model
+2019-11-05 17:03:36.055 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNickName
+2019-11-05 17:03:36.055 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNickName
+2019-11-05 17:03:36.056 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNickName
+2019-11-05 17:03:36.056 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNickName
+2019-11-05 17:03:36.056 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property note
+2019-11-05 17:03:36.058 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNote
+2019-11-05 17:03:36.059 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'note' renamed to 'note'
+2019-11-05 17:03:36.060 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property note to model
+2019-11-05 17:03:36.060 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNote
+2019-11-05 17:03:36.060 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNote
+2019-11-05 17:03:36.060 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNote
+2019-11-05 17:03:36.060 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setNote
+2019-11-05 17:03:36.061 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property createTime
+2019-11-05 17:03:36.063 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setCreateTime
+2019-11-05 17:03:36.063 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'createTime' renamed to 'createTime'
+2019-11-05 17:03:36.063 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property createTime to model
+2019-11-05 17:03:36.063 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setCreateTime
+2019-11-05 17:03:36.064 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setCreateTime
+2019-11-05 17:03:36.064 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setCreateTime
+2019-11-05 17:03:36.064 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setCreateTime
+2019-11-05 17:03:36.065 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property loginTime
+2019-11-05 17:03:36.065 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLoginTime
+2019-11-05 17:03:36.066 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'loginTime' renamed to 'loginTime'
+2019-11-05 17:03:36.066 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property loginTime to model
+2019-11-05 17:03:36.066 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLoginTime
+2019-11-05 17:03:36.067 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLoginTime
+2019-11-05 17:03:36.067 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLoginTime
+2019-11-05 17:03:36.067 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setLoginTime
+2019-11-05 17:03:36.067 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Reading property status
+2019-11-05 17:03:36.068 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+2019-11-05 17:03:36.068 [main] DEBUG springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2019-11-05 17:03:36.068 [main] DEBUG springfox.documentation.schema.property.OptimizedModelPropertiesProvider - Adding property status to model
+2019-11-05 17:03:36.068 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+2019-11-05 17:03:36.068 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+2019-11-05 17:03:36.068 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+2019-11-05 17:03:36.068 [main] DEBUG springfox.documentation.schema.property.bean.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+2019-11-05 17:03:36.070 [main] DEBUG springfox.documentation.schema.DefaultModelProvider - Inferred 10 properties. Properties found createTime, email, icon, id, loginTime, nickName, note, password, status, username
+2019-11-05 17:03:36.070 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: UmsAdmin, name: UmsAdmin, schema: {} models
+2019-11-05 17:03:36.079 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: CommonResult?UmsAdmin?
+2019-11-05 17:03:36.081 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method register
+2019-11-05 17:03:36.084 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:CommonResult?UmsAdmin?
+2019-11-05 17:03:36.086 [main] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader - Extension count 1 for method register
+2019-11-05 17:03:36.215 [main] INFO  com.hong.py.SpringbootdemoApplicationTests - Started SpringbootdemoApplicationTests in 16.999 seconds (JVM running for 18.242)
+2019-11-05 17:03:37.097 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

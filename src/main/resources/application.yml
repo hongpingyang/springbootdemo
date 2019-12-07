@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    test1:
+      driverClassName: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+      username: root
+      password: 1234
+      type: com.alibaba.druid.pool.DruidDataSource
+    test2:
+      driverClassName: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/mall1?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+      username: root
+      password: 1234
+      type: com.alibaba.druid.pool.DruidDataSource
+
+
+mybatis:
+  mapper-locations:
+    - classpath:com/hong/py/mapper/*.xml
+
+# 自定义jwt key
+jwt:
+  tokenHeader: Authorization #JWT存储的请求头
+  secret: mySecret #JWT加解密使用的密钥
+  expiration: 604800 #JWT的超期限时间(60*60*24)
+  tokenHead: Bearer  #JWT负载中拿到开头
+
+logging:
+  config: classpath:log4j2.xml
