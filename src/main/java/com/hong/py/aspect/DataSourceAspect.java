@@ -37,7 +37,7 @@ public class DataSourceAspect  {
 
     private static Logger logger = LoggerFactory.getLogger(DataSourceAspect.class);
 
-    @Pointcut("@annotation(ds)")
+    @Pointcut("@annotation(ds)") // 切点为注解类型为DataSourceType的函数
     public void pointcut(DataSourceType ds){}
 
     @Before("pointcut(ds)")
